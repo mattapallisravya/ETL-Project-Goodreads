@@ -10,15 +10,15 @@ Original Source - https://zenodo.org/record/4265096#.Y5vlCVHMJD-
 Web Scraping - from Wikipedia page for author information.
 
 The Process
-Extract
+Extract :
     i.	Downloaded good books data csv from zenodo.org
     ii.	Web Scraping for the author information
 
 
-Transform
+Transform :
     i.	Source 1 CSV file located at 
         https://zenodo.org/record/4265096#.Y5vlCVHMJD-
-        -	The original dataset has around 50000 rows. We filtered the dataset for the books published in English and books published in latest 5 years in the dataset that is 2015 to 2020 for web scraping purpose as well as interest towards latest books. There are about 3800 rows of data after filtering.
+        -	The original dataset has around 50000 rows. We filtered the dataset for the books published in English and books published in latest 5 years in             the dataset that is 2015 to 2020 for web scraping purpose as well as interest towards latest books. There are about 3800 rows of data after                 filtering.
         -	The original dataset has about 25 columns filtered down to 13 columns unnecessary columns were dropped.
         -	title, author, rating, description, language, isbn, genres, pages, publishDate, publisher, numRatings, likedPercent, awards.
         -	Author column has terms such as (Goodreads Author), (Translator), (Editor), (Foreword), (Pseudonym) and lots of non-alphabetical characters all of them were split by commas, brackets into separate columns then they were dropped to create main author column which has author name.
