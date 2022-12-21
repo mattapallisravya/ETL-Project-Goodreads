@@ -38,13 +38,7 @@ Transform
 Load
 We used sqlalchemy to load our data into the Book_db database. The database is relational. You can see the tables in this image of our Entity Relationship Database. It was created using QuickDBD.
 
-**
-[ADD IMAGE]
-[ADD IMAGE]
-[ADD IMAGE]
-[ADD IMAGE]
-[ADD IMAGE]
-**
+![database_schemata_visual](https://user-images.githubusercontent.com/113364137/209022859-a17e3b16-54c4-427e-9fbc-b63a4d0215f9.png)
 
 Sample Queries
 1. SELECT *
