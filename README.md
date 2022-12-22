@@ -53,6 +53,12 @@ FROM author
 INNER JOIN book 
 ON book.main_author=author.main_author;
 
+Code for extracting(CSV), tranforming and loading:
+extract_transform_load.ipynb
+
+Code for extracting(Web Scraping):
+
+
 Analysis in future:
 1. What age group of authors books were published in the period between 2015 to 2020 and which age group recieved more awards?
 2. what genre is more popular/have more ratings?
