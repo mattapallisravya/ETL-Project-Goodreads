@@ -57,6 +57,7 @@ Code for extracting(CSV), tranforming and loading:
 extract_transform_load.ipynb
 
 Code for extracting(Web Scraping):
+extract_web_scraping.ipynb
 
 
 Analysis in future:
